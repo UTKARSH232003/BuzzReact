@@ -1,0 +1,58 @@
+{
+    "status": "ok",
+    "totalResults": 4,
+    "articles": [
+        {
+            "source": {
+                "id": "talksport",
+                "name": "TalkSport"
+            },
+            "author": "Jackson Cole",
+            "title": "Freddie Flintoff’s spine-tingling over in ‘the greatest Test’ saw England fall in love with cricket...",
+            "description": "Huge excitement is building ahead of this summer’s Ashes, although the first Test at Edgbaston surely won’t match what played out in 2005. There’s no shame in that of course, the …",
+            "url": "https://talksport.com/sport/cricket/1469954/freddie-flintoff-spine-tingling-over-england-fall-in-love-cricket/",
+            "urlToImage": "https://talksport.com/wp-content/uploads/sites/5/2023/06/LB-tsport-freddie-copy.jpg?strip=all&quality=100&w=1500&h=1000&crop=1",
+            "publishedAt": "2023-06-15T22:00:13Z",
+            "content": "Huge excitement is building ahead of this summer's Ashes, although the first Test at Edgbaston surely won't match what played out in 2005.\r\nThere's no shame in that of course, the thrilling second Te… [+4724 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-sport",
+                "name": "BBC Sport"
+            },
+            "author": null,
+            "title": "'Let the Ashes summer of love begin'",
+            "description": "On the eve of the Ashes, England and Australia are set to write the latest chapter in sport's greatest love story, says chief cricket writer Stephan Shemilt.",
+            "url": "http://www.bbc.co.uk/sport/cricket/65906469",
+            "urlToImage": "https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/17D0E/production/_130105579_ashespreviewv2.jpg",
+            "publishedAt": "2023-06-15T21:37:21.8202755Z",
+            "content": "<table><tr><th>Ashes 2023 - first Test</th></tr>\r\n<tr><td>Venue: Edgbaston Dates: 16-20 June</td></tr><tr><td>Coverage: Live text commentary and in-play video clips on the BBC Sport website &amp; app… [+7052 chars]"
+        },
+        {
+            "source": {
+                "id": "espn-cric-info",
+                "name": "ESPN Cric Info"
+            },
+            "author": null,
+            "title": "PCB hands Umar Akmal three-year ban from all cricket | ESPNcricinfo.com",
+            "description": "Penalty after the batsman pleaded guilty to not reporting corrupt approaches | ESPNcricinfo.com",
+            "url": "http://www.espncricinfo.com/story/_/id/29103103/pcb-hands-umar-akmal-three-year-ban-all-cricket",
+            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1099495_800x450.jpg",
+            "publishedAt": "2020-04-27T11:41:47Z",
+            "content": "Umar Akmal's troubled cricket career has hit its biggest roadblock yet, with the PCB handing him a ban from all representative cricket for three years after he pleaded guilty of failing to report det… [+1506 chars]"
+        },
+        {
+            "source": {
+                "id": "espn-cric-info",
+                "name": "ESPN Cric Info"
+            },
+            "author": null,
+            "title": "What we learned from watching the 1992 World Cup final in full again | ESPNcricinfo.com",
+            "description": "Wides, lbw calls, swing - plenty of things were different in white-ball cricket back then | ESPNcricinfo.com",
+            "url": "http://www.espncricinfo.com/story/_/id/28970907/learned-watching-1992-world-cup-final-full-again",
+            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1219926_1296x729.jpg",
+            "publishedAt": "2020-03-30T15:26:05Z",
+            "content": "Last week, we at ESPNcricinfo did something we have been thinking of doing for eight years now: pretend-live ball-by-ball commentary for a classic cricket match. We knew the result, yes, but we tried… [+6823 chars]"
+        }
+    ]
+}
