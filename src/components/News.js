@@ -57,7 +57,7 @@ export default class News extends Component {
     this.updateNews();
   };
 
-  handleNextClick = async () => {
+  handleNextClick = async () => { 
     this.setState({ page: this.state.page + 1 });
     this.updateNews();
   };
@@ -66,7 +66,7 @@ export default class News extends Component {
     console.log("render executed");
     return (
       <div className="container my-3">
-        <h2 className="text-center" style={{ margin: '30px 0px' }}>
+        <h2 className="text-center" style={{ margin: '30px 0px' }}> 
           NewsMonkey - Top Headlines
         </h2>
         {this.state.loading && <Spinner />}

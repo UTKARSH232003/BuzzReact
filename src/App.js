@@ -51,7 +51,7 @@ pageSize = 5;
       <Route element={<News pageSize={this.pageSize} country="in" category="technology" />} />
     </Route>
   </Routes>
-</Router> */}
+</Router> */}    
 
 <Router>
   <Navbar/>
