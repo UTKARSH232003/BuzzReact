@@ -34,7 +34,7 @@ import React, { Component } from 'react';
 
 export default class NewsItems extends Component {
   render() {
-    const { title, description, imageurl, newsUrl, publishedAt, author } = this.props;
+    const { title, description, imageurl, newsUrl, publishedAt, author, source } = this.props;
     return (
       <div className="my-3">
         <div className="card position-relative" style={{ width: "18rem" }}>
@@ -43,8 +43,8 @@ export default class NewsItems extends Component {
             className="card-img-top"
             alt="..."
           />
-          <span className="position-absolute top-0 start-100 translate-middle badge rounded-rectangle bg-danger" style={{ transform: "translate(-50%, -50%)" }}>
-            99+
+          <span className="position-absolute top-0 start-100 translate-middle badge rounded-rectangle bg-success" style={{ transform: "translate(-50%, -50%)" }}>
+            {source}
             <span className="visually-hidden"></span>
           </span>
           <div className="card-body">
