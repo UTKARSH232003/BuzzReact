@@ -72,7 +72,7 @@ export default class News extends Component {
         {this.state.loading && <Spinner />}
         {/* <InfiniteScroll dataLength={this.state.article.length} next={this.fetchMoreData} hasMore={this.state.article.length !== this.state.totalResults} loader={<Spinner />}> */}
         <div className="row">
-          {this.state.article.map((element) => (
+          {!this.state.loading && this.state.article.map((element) => (
               <div className="col-md-4" key={element.url}>
                 <Newsitems title={element.title ? element.title.slice(0, 45) : ''}
                   description={element.description ? element.description.slice(0, 88) : ''}
