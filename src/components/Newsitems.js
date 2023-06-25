@@ -42,7 +42,7 @@ export default class NewsItems extends Component {
             src={!imageurl ? "https://png.pngtree.com/png-vector/20221117/ourmid/pngtree-breaking-news-vector-icon-illustration-logo-design-png-image_6461447.png" : imageurl}
             className="card-img-top"
             alt="..."
-          />
+          /> 
           <span className="position-absolute top-0 start-100 translate-middle badge rounded-rectangle bg-success" style={{ transform: "translate(-50%, -50%)" }}>
             {source}
             <span className="visually-hidden"></span>
