@@ -35,7 +35,7 @@ export default class News extends Component {
     document.title = `${capitalizeFirstLetter(this.props.category)} - NewsMonkey`;
   }
 
-  async componentDidMount() {
+  async componentDidMount() { 
     this.updateNews();
   }
 

@@ -15,7 +15,7 @@ apiKey = process.env.REACT_APP_NEWS_API;
 
 state = {
   progress : 1
-}
+} 
 
 setProgress = (progress) => {
   this.setState({progress: progress})
