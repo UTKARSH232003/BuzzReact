@@ -30,40 +30,41 @@
 
 
 
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class NewsItems extends Component {
-  render() {
-    const { title, description, imageurl, newsUrl, publishedAt, author, source } = this.props;
+const NewsItems = (props) => {
+    // const { title, description, imageurl, newsUrl, publishedAt, author, source } = this.props;
+    // const { title, description, imageurl, newsUrl, publishedAt, author, source } = props; without writing props.something we could have done this also
+
     return (
       <div className="my-3">
         <div className="card position-relative" style={{ width: "18rem" }}>
           <img
-            src={!imageurl ? "https://png.pngtree.com/png-vector/20221117/ourmid/pngtree-breaking-news-vector-icon-illustration-logo-design-png-image_6461447.png" : imageurl}
+            src={!props.imageurl ? "https://png.pngtree.com/png-vector/20221117/ourmid/pngtree-breaking-news-vector-icon-illustration-logo-design-png-image_6461447.png" : props.imageurl}
             className="card-img-top"
             alt="..."
           /> 
           <span className="position-absolute top-0 start-100 translate-middle badge rounded-rectangle bg-success" style={{ transform: "translate(-50%, -50%)" }}>
-            {source}
+            {props.source}
             <span className="visually-hidden"></span>
           </span>
           <div className="card-body">
             <h5 className="card-title">
-              {title}
+              {props.title}
             </h5>
-            <p className="card-text">{description}</p>
+            <p className="card-text">{props.description}</p>
             <p className="card-text">
               <small className="text-body-secondary">
-                By - {!author ? "unknown" : author} On {new Date(publishedAt).toGMTString().slice(0, 17)}
+                By - {!props.author ? "unknown" : props.author} On {new Date(props.publishedAt).toGMTString().slice(0, 17)}
               </small>
             </p>
-            <a href={newsUrl} target="_blank" rel="noreferrer" className="btn btn-sm btn-primary">
+            <a href={props.newsUrl} target="_blank" rel="noreferrer" className="btn btn-sm btn-primary">
               Details
             </a>
           </div>
         </div>
       </div>
     );
-  }
 }
 
+export default NewsItems
