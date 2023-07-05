@@ -21,7 +21,7 @@ export default class News extends Component {
             article : [],
             loading: false,
             page: 1
-        }
+        } 
     }
     async componentDidMount(){
         console.log("component runned")
