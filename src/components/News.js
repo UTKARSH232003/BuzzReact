@@ -1,7 +1,7 @@
 
 
 import React, { Component } from 'react';
-import Newsitems from './Newsitems';
+import Newsitems from './NewsItems';
 import Spinner from './Spinner';
 import PropTypes from 'prop-types';
 import InfiniteScroll from 'react-infinite-scroll-component';

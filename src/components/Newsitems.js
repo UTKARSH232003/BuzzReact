@@ -27,14 +27,10 @@
 
 
 
+import React from 'react';
 
-
-
-import React, { Component } from 'react';
-
-export default class NewsItems extends Component {
-  render() {
-    const { title, description, imageurl, newsUrl, publishedAt, author, source } = this.props;
+const NewsItems = (props) =>{
+    const { title, description, imageurl, newsUrl, publishedAt, author, source } = props;
     return (
       <div className="my-3">
         <div className="card position-relative" style={{ width: "18rem" }}>
@@ -64,6 +60,5 @@ export default class NewsItems extends Component {
         </div>
       </div>
     );
-  }
 }
-
+export default NewsItems;
