@@ -42,7 +42,7 @@ const NewsItems = (props) =>{
           <span className="position-absolute top-0 start-100 translate-middle badge rounded-rectangle bg-success" style={{ transform: "translate(-50%, -50%)" }}>
             {source}
             <span className="visually-hidden"></span>
-          </span>
+          </span>   
           <div className="card-body">
             <h5 className="card-title">
               {title}
