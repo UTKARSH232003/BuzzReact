@@ -60,7 +60,7 @@ const News =(props)=>{
   };
     return (
       <>
-        <h2 className="text-center" style={{ margin: '30px 0px' }}> 
+        <h2 className="text-center" style={{ margin: '30px 0px' , marginTop: '90px'}}> 
           NewsMonkey - Top Headlines
         </h2>
         {/* {this.state.loading && <Spinner />} */}
